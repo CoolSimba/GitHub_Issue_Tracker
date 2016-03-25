@@ -1,11 +1,11 @@
-from flask import Flask, render_template, request      #importing Flask libraries
-import requests, json                                  #impoting requests package        
+from flask import Flask, render_template, request
+import requests, json       
 from datetime import datetime, timedelta
 
 app = Flask(__name__)
 
 url = ''
-count_issues = {}                                     #python dictionary to keep track on issues
+count_issues = {}
 count_issues['open'] =  0
 count_issues['last24hr'] = 0
 count_issues['last7days'] = 0
