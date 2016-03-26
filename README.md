@@ -22,5 +22,5 @@ Solution:
 This is a program to track open issue count for a public Git repo. 
 The scrpit is written in python and I used the Flask frame work to design the solution.
 To keep track of the time I am useing python standatrd datetime libraries. And the solution is designed based on the RESTful webservice provided by GitHub to keep track of the issues.
-This application is live on https://istr.herokuapp.com/ foe next 14 hrs from now.(till 8 AM 27-mar-16)
+This application is live on https://istr.herokuapp.com/ for next 14 hrs from now(till 8 AM 27-mar-16).
 Input is any public Git repo url and output will be according to the problem description.
